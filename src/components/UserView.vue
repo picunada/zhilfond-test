@@ -3,7 +3,7 @@ import { User } from '../types/user';
 import { defineProps } from 'vue';
 
 const props = defineProps<{
-  user?: User,
+  user?: User | null,
 }>()
 
 </script>
